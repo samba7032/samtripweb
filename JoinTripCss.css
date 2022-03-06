@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-head{
+    background-position:center ;
+    background-size: cover;
+    background-image:linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)) , url("img.png");
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav img{
+    width: 100px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+nav a:hover{
+    color: red;
+    box-shadow: 5px 0 5px 0 red;
+    border-radius: 15px;
+    border: 2px solid darkseagreen;
+    background-color: saddlebrown;
+}
+nav img:hover{
+    transform: scale(1.5,1);
+}
+.content{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin:10% auto;
+}
+.content h1{
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.content h4{
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 12px;
+}
+p{
+    padding: 15px;
+    color: whitesmoke;
+}
+#text{
+    padding: 10px;
+    width: 250px;
+}
+#btn{
+    width: 100px;
+    padding: 8px;
+    color: red;
+    font-size: 15px;
+}
+#text:focus{
+    text-decoration: none;
+    border: none;
+    background-color: cadetblue;
+}
+@media (max-width: 450px) {
+    .content{
+        margin:25% auto;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    #btn{
+        margin-top: 10px;
+    }
+    .sec{
+        display: block;
+    }
+}
+.dec-div{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec{
+    overflow: hidden;
+    padding: 10px;
+    margin:10px 20px;
+    width: 350px;
+    border: 1px solid black;
+
+}
+.sec p{
+    color: red;
+}
+.sec img{
+
+    width: inherit;
+}
+.sec img:hover {
+    box-shadow: 0 0 2px red;
+    transform: scale(1.2, 1.2);
+}
+.heading{
+    color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.gaa{
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+.gallery img{
+    margin: 10px;
+    width: 200px;
+}
+.com{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.rev{
+    text-align: center;
+    margin: 10px 20px;
+}
+.im{
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 250px;
+    background-color: lightslategray;
+}
+footer h1{
+    padding: 12px;
+    color: wheat;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightcoral;
+
+
+}
